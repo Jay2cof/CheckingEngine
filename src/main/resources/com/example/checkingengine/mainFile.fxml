@@ -7,9 +7,8 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:controller="com.example.checkingengine.controller.MainController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="213.0" layoutY="41.0" prefHeight="24.0" prefWidth="170.0" text="Welcome to Fly Jay" textFill="#532590">
          <font>
@@ -18,7 +17,7 @@
       </Label>
       <Button layoutX="383.0" layoutY="381.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="89.0" text="Register" textFill="#186b10" />
       <TextField layoutX="68.0" layoutY="160.0" />
-=======
+
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.checkingengine.controller.MainController">
    <children>
       <Label layoutX="191.0" layoutY="43.0" prefHeight="24.0" prefWidth="170.0" text="Welcome to Fly Jay" textFill="#532590">
@@ -28,7 +27,7 @@
       </Label>
       <Button fx:id="btn_register" layoutX="383.0" layoutY="381.0" mnemonicParsing="false" onAction="#registerNewCustomer" prefHeight="27.0" prefWidth="89.0" text="Register" textFill="#186b10" />
       <TextField fx:id="txt_loginEmail" layoutX="68.0" layoutY="160.0" />
->>>>>>> 48a08de (Booking Engine connecting both fxml files)
+
       <Label layoutX="68.0" layoutY="127.0" text="Email">
          <font>
             <Font size="14.0" />
@@ -39,12 +38,11 @@
             <Font size="14.0" />
          </font>
       </Label>
-<<<<<<< HEAD
+
       <PasswordField layoutX="68.0" layoutY="239.0" />
       <Button layoutX="59.0" layoutY="381.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="89.0" text="Login" textFill="#0e6828" />
-=======
       <PasswordField fx:id="txt_loginPassword" layoutX="68.0" layoutY="239.0" />
       <Button fx:id="btn_login" layoutX="59.0" layoutY="381.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="89.0" text="Login" textFill="#0e6828" />
->>>>>>> 48a08de (Booking Engine connecting both fxml files)
+
    </children>
 </AnchorPane>
