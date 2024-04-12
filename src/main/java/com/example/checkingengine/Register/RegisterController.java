@@ -1,5 +1,4 @@
-package com.example.checkingengine.controller;
-
+package com.example.checkingengine.Register;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -11,23 +10,16 @@ import javafx.stage.Stage;
 import java.io.IOException;
 import java.util.Objects;
 
-public class MainController {
-
+public class RegisterController {
     @FXML
-    public Button btn_login;
-    @FXML
-    public Button btn_register;
+    public Button Btn_Login;
 
     @FXML
     public void registerNewCustomer() throws IOException{
-
-        Stage stage = (Stage) btn_register.getScene().getWindow();
+        Stage stage = (Stage) Btn_Login.getScene().getWindow();
         Parent root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("/com/example/checkingengine/register.fxml")));
-        stage.setScene(new Scene(root, 707, 587));
-        stage.setTitle("Registration");
-        }
-        }
+        stage.setScene(new Scene(root, 700, 454));
+        stage.setTitle("Login");
+    }
 
-
-
-
+}

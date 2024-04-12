@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="528.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="577.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="246.0" layoutY="25.0" text="Register">
          <font>
@@ -53,6 +53,7 @@
       <PasswordField layoutX="426.0" layoutY="185.0" />
       <Label layoutX="24.0" layoutY="371.0" text="Address" />
       <Label layoutX="414.0" layoutY="240.0" text="Select Country" />
-      <Button layoutX="399.0" layoutY="445.0" mnemonicParsing="false" text="Register" />
+      <Button layoutX="116.0" layoutY="519.0" mnemonicParsing="false" text="Register" />
+      <Button fx:id="BtnLogin" layoutX="314.0" layoutY="519.0" mnemonicParsing="false" onAction="#registerNewCustomer" text="Login" />
    </children>
 </AnchorPane>
