@@ -7,7 +7,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="478.0" prefWidth="600.0" style="-fx-background-color: orange;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.checkingengine.controller.MainController">
    <children>
       <Label layoutX="191.0" layoutY="43.0" prefHeight="24.0" prefWidth="170.0" text="Welcome to Fly Jay" textFill="#532590">
@@ -15,7 +14,7 @@
             <Font name="Apple SD Gothic Neo Bold" size="19.0" />
          </font>
       </Label>
-      <Button fx:id="btn_register" layoutX="383.0" layoutY="381.0" mnemonicParsing="false" onAction="#registerNewCustomer" prefHeight="27.0" prefWidth="89.0" text="Register" textFill="#186b10" />
+      <Button fx:id="btn_register" layoutX="56.0" layoutY="356.0" mnemonicParsing="false" onAction="#registerNewCustomer" prefHeight="27.0" prefWidth="89.0" text="Register" textFill="#186b10" />
       <TextField fx:id="txt_loginEmail" layoutX="68.0" layoutY="160.0" />
 
       <Label layoutX="68.0" layoutY="127.0" text="Email">
@@ -30,9 +29,8 @@
       </Label>
 
       <PasswordField layoutX="68.0" layoutY="239.0" />
-      <Button layoutX="59.0" layoutY="381.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="89.0" text="Login" textFill="#0e6828" />
       <PasswordField fx:id="txt_loginPassword" layoutX="68.0" layoutY="239.0" />
-      <Button fx:id="btn_login" layoutX="59.0" layoutY="381.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="89.0" text="Login" textFill="#0e6828" />
+      <Button fx:id="btn_login" layoutX="287.0" layoutY="362.0" mnemonicParsing="false" onAction="#customerLogin" prefHeight="27.0" prefWidth="89.0" text="Login" textFill="#0e6828" />
 
    </children>
 </AnchorPane>
