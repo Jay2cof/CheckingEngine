@@ -1,0 +1,32 @@
+Customers features
+    Login and logout
+    view profile
+    Update profile
+    Book a flight
+    cancel a flight
+    claim your point
+    view all flight schedule
+
+ Admin features (Backend guy tool)
+    Login and Logout
+    View all customers
+    view all booked flight
+    view and resolve complains
+    Set flight point
+    Add flight
+    update flight and schedules
+
+Flight details
+    Destination and Arrival
+    Date of departure
+    Time of departure
+    Time of Arrival
+    Flight number
+    Flight type
+    flight duration
+    price
+    seat type
+    seat number
+    luggage's(kg)
+    Is staff
+    customer id

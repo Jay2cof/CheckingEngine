@@ -8,5 +8,7 @@ module com.example.checkingengine {
     exports com.example.checkingengine;
 
     exports com.example.checkingengine.controller;
+    exports com.example.checkingengine.Auth;
+    opens com.example.checkingengine.Auth to javafx.fxml;
 
 }
